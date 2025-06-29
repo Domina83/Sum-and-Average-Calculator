@@ -19,9 +19,13 @@ C
 
 ### Sample Output
 Enter the marks of 5 subjects:
+
 90 85 88 92 95
+
 The sum is 450
+
 The average is 90.00
+
 Grade = 'S'
 
 ## How to Run
@@ -29,7 +33,9 @@ Compile and run using a C compiler:
 ```bash
 gcc sum_avg_grade.c -o report
 ./report
+
 What I Learned
+
 Storing and accessing arrays in C
 
 Using loops to process input and calculate totals
