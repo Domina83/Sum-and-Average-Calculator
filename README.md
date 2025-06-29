@@ -1,26 +1,39 @@
-# Sum and Average Calculator
-This C program takes three numbers from the user and calculates their sum and average.
+# Sum, Average and Grade Calculator
+This C program takes marks for 5 subjects, calculates the total sum and average, and then assigns a grade based on the average.
 
 ## Language
 C
 
 ## Description
-The user enters three numbers, and the program adds them and then finds the average using the formula:
-average = sum / 3
+- Takes input for 5 subject marks from the user  
+- Calculates total sum and average  
+- Assigns a grade based on the average:
+
+| Average Score | Grade |
+|---------------|-------|
+| 90 and above  | S     |
+| 70 - 89       | A     |
+| 60 - 69       | B     |
+| 50 - 59       | C     |
+| Below 50      | F     |
 
 ### Sample Output
-Enter three numbers: 5 10 15
-Sum = 30
-Average = 10.00
+Enter the marks of 5 subjects:
+90 85 88 92 95
+The sum is 450
+The average is 90.00
+Grade = 'S'
 
 ## How to Run
 Compile and run using a C compiler:
 ```bash
-gcc sum_average.c -o result
-./result
+gcc sum_avg_grade.c -o report
+./report
 What I Learned
-Using variables and input in C
+Storing and accessing arrays in C
 
-Basic arithmetic operations (addition and division)
+Using loops to process input and calculate totals
 
-Printing formatted results using %.2f for float output
+Using float for average and displaying with precision
+
+Applying conditions using if-else for grading
