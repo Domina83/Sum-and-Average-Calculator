@@ -6,8 +6,9 @@ int main()
    int i=0;
    float avg=0.0;
    int sum=0;
-   printf("Enter the marks of 5 subjects\n:",i);
+   printf("Enter the marks of 5 subjects\n:");
    for(i=0;i<5;i++)
+}
    {
     scanf("%d",&marks[i]);
    }
@@ -15,7 +16,7 @@ int main()
    {
     sum = sum+marks[i];
    }
-   avg=sum/5;
+   avg=sum/5.0;
    printf("\nThe sum is %d",sum);
    printf("\nThe average is %f",avg);
 {
